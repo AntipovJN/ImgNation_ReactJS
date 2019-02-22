@@ -1,0 +1,27 @@
+.grid{
+ padding-top: 15px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+.grid div{
+ text-align: center;
+ height: min-content;
+ font-weight:  500 ;
+ color: #cfcec4;
+}
+.grid div:hover{
+ background-color: #3D3D3D;
+ opacity: .7;
+ border-radius: 15px;
+ text-align: center;
+}
+.grid div img{
+ width: 250px;
+ border-radius: 15px;
+ padding-top: 10px;
+}
+.grid div.icon{
+color: #5a6268;
+ text-align:right;
+ }

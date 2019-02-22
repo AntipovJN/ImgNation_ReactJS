@@ -1,0 +1,73 @@
+.grid{
+    padding-top: 50px;
+    display: grid;
+    color: #cfcec4;
+    grid-gap: 10px;
+    grid-template-areas: " .  ava descr . ."
+                         " .  ava descr . ."
+                         " . . sv sv . ";
+
+}
+.profileAvatar{
+grid-area: ava;
+}
+.profileAvatar img{
+    width: 200px;
+    border-radius: 250px;
+}
+.profileDescription{
+    grid-area:descr
+}
+.profileActivity{
+    width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profileDescription a{
+    color:#cfcec4;
+    font-weight: 500;
+}
+.profileDescription a:hover{
+    color:#979797;
+    text-decoration:none;
+}
+.navIcons{
+    display: grid;
+    width: 140px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.savedImgBoard{
+    /*border-radius: 15px;*/
+    padding: 5px;
+    /*background-color: #5a6268;*/
+    width: min-content;
+    display: grid;
+
+}
+.savedImgBoard:hover{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #4a4a4a;
+    width: min-content;
+    opacity: .8;
+
+
+}
+.svd{
+    grid-gap: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+
+}
+.svd img{
+    border-radius: 5px;
+    width: 80px;
+}
+.imgBoards{
+    width: max-content;
+    display: grid;
+    grid-area: sv;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr ;
+}

@@ -1,0 +1,15 @@
+
+.header {
+    margin:0;padding:0;
+    height: 62px;
+    display:flex;
+    width: 100%;
+    background-color: #3D3D3D  ;
+        /*border-bottom: 1px solid #faf6f5;*/
+    overflow:hidden;
+}
+
+/*https://www.palettable.io/F26C18-7CBF80-388C7D-595447-7C8F91*/
+
+
+
